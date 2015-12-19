@@ -6,9 +6,9 @@ input#SearchBox{
 
 /* scalebar position */
 div#OpenLayers_Control_ScaleLine_31{
-    left: auto;
-    top: auto;
-    right: 10px;
+    left: auto !important;
+    top: auto !important;
+    right: 10px !important;
 }
 
 /* Prevent large icons in mobile view */
