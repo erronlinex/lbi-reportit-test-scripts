@@ -6,6 +6,7 @@ $(document).ready(main);
 
 function iphoneFixes(){
     document.ontouchstart = function(e){ 
+        e.stopPropagation();
         e.preventDefault(); 
     }
 }
