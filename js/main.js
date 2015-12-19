@@ -8,6 +8,6 @@ function main(){
     var enablePOC = getURLParameter('poc');
     
     if(enablePOC==1){
-        alert('success');
+        alert('success'+enablePOC);
     }
 }
