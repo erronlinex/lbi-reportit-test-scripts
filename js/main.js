@@ -7,7 +7,7 @@ $(document).ready(main);
 function main(){
     var enablePOC = getURLParameter('poc');
     
-    if(enablePOC){
+    if(enablePOC=1){
         alert('success');
     }
 }
