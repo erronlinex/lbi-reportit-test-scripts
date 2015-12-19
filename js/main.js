@@ -4,17 +4,16 @@ function getURLParameter(name) {
 
 $(document).ready(main);
 
-    function main(){
-        var enablePOC = getURLParameter('poc');
+function main(){
+    var enablePOC = getURLParameter('poc');
 
-        if(enablePOC==1){
-            
-            $("<link/>", {
-                rel: "stylesheet",
-                type: "text/css",
-                href: "../css/fixUI.css"
-            }).appendTo("head");
+    if(enablePOC==1){
 
-        }
+        $("<link/>", {
+            rel: "stylesheet",
+            type: "text/css",
+            href: "../css/fixUI.css"
+        }).appendTo("head");
+
     }
 }
