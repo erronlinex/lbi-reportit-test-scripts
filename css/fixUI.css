@@ -1,3 +1,12 @@
+/* Test css is workin - can be removed */
 input#SearchBox{
     background-color: orange;
+}
+
+
+/* scalebar position */
+div#OpenLayers_Control_ScaleLine_31{
+    left: auto;
+    top: auto;
+    right: 10px;
 }
