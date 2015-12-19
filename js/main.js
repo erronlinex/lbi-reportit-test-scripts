@@ -4,6 +4,12 @@ function getURLParameter(name) {
 
 $(document).ready(main);
 
+function iphoneFixes(){
+    document.ontouchstart = function(e){ 
+        e.preventDefault(); 
+    }
+}
+
 function main(){
     var enablePOC = getURLParameter('poc');
 
@@ -14,6 +20,8 @@ function main(){
             type: "text/css",
             href: "https://rawgit.com/erronlinex/lbi-reportit-test-scripts/master/css/fixUI.css"
         }).appendTo("head");
+        
+        iphoneFixes();
 
     }
 }

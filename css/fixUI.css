@@ -12,10 +12,12 @@ input#SearchBox{
 }
 
 /* Prevent large icons in mobile view */
+/*
 [id^="OpenLayers_Geometry_Point"]{
     width: 16px !important;
     height: 16px !important;
 }
+*/
 
 /* hide cursor coordinates - temp fix */
 div#OpenLayers_Control_MousePosition_69{
