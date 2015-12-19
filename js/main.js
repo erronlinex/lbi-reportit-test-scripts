@@ -6,9 +6,12 @@ $(document).ready(main);
 
 function iphoneFixes(){
     document.ontouchstart = function(e){ 
-        e.stopPropagation();
         e.preventDefault(); 
     }
+    $('div').on("touchmove", function (event) {
+        alert('yay');
+        event.elementIsEnabled = true;
+    };
 }
 
 function main(){
