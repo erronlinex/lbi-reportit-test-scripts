@@ -10,3 +10,9 @@ div#OpenLayers_Control_ScaleLine_31{
     top: auto;
     right: 10px;
 }
+
+/* Prevent large icons in mobile view */
+[id^="OpenLayers_Geometry_Point"]{
+    width: 16px !important;
+    height: 16px !important;
+}
