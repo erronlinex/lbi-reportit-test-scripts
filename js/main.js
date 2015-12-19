@@ -12,7 +12,7 @@ function main(){
         $("<link/>", {
             rel: "stylesheet",
             type: "text/css",
-            href: "../css/fixUI.css"
+            href: "https://rawgit.com/erronlinex/lbi-reportit-test-scripts/master/css/fixUI.css"
         }).appendTo("head");
 
     }
