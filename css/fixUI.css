@@ -16,3 +16,8 @@ div#OpenLayers_Control_ScaleLine_31{
     width: 16px !important;
     height: 16px !important;
 }
+
+/* hide cursor coordinates - temp fix */
+div#OpenLayers_Control_MousePosition_69{
+   display: none; 
+}
