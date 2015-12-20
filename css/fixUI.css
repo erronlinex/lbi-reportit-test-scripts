@@ -24,4 +24,10 @@ div#OpenLayers_Control_MousePosition_69{
    display: none; 
 }
 
-/* body fixed position */
+/* Legend font size */
+div#LegendDiv {
+    font-size: larger !important;
+    height: 225px !important;
+    top: auto !important;
+    bottom: 100px !important;
+}

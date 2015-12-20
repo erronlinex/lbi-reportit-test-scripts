@@ -10,6 +10,10 @@ function iphoneFixes(){
     }
 }
 
+function legend(){
+    $('#LegendDiv').append('<button onclick="ToggleLegend();">Done</button>');
+}
+
 function main(){
     var enablePOC = getURLParameter('poc');
 
@@ -22,6 +26,7 @@ function main(){
         }).appendTo("head");
         
 //        iphoneFixes();
+        legend();
 
     }
 }
