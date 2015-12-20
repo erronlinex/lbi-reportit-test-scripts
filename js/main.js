@@ -8,10 +8,6 @@ function iphoneFixes(){
     document.ontouchstart = function(e){ 
         e.preventDefault(); 
     }
-    $('div').on("touchmove", function (event) {
-        alert('yay');
-        event.elementIsEnabled = true;
-    };
 }
 
 function main(){
@@ -25,7 +21,7 @@ function main(){
             href: "https://rawgit.com/erronlinex/lbi-reportit-test-scripts/master/css/fixUI.css"
         }).appendTo("head");
         
-        iphoneFixes();
+//        iphoneFixes();
 
     }
 }
