@@ -4,8 +4,8 @@ input#SearchBox{
 }
 
 
-/* scalebar position */
-[id^="OpenLayers_Control_ScaleLine"]{
+/* DESKTOP view scalebar position MOBILE needs to be positioned at top-right of page */
+.olControlScaleLine{
     left: auto !important;
     top: auto !important;
     right: 10px !important;
