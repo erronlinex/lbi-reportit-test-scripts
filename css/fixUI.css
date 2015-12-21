@@ -57,6 +57,7 @@ input#SearchBox + img {
     right: 10px;
 }
 
+/* FILTER DIV */
 /* hide filters clusters label*/
 div#DialogContentDiv>div>h3:nth-child(6) {
     display: none !important;
@@ -64,4 +65,8 @@ div#DialogContentDiv>div>h3:nth-child(6) {
 /* hide broken clusters filter options -- spaces iflter works on both layers */
 div#DialogContentDiv>div>table:nth-child(7) {
     display: none !important;
+}
+div#DialogDiv {
+    top: auto !important;
+    bottom: 123px !important;
 }
