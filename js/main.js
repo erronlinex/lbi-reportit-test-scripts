@@ -20,7 +20,7 @@ function main(){
 
     if(enablePOC==1){
 
-        $("<link/>", {
+        $("<link/>", { 
             rel: "stylesheet",
             type: "text/css",
             href: "https://rawgit.com/erronlinex/lbi-reportit-test-scripts/master/css/fixUI.css"
