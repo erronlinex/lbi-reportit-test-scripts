@@ -15,7 +15,7 @@ function legend(){
 }
 
 function main(){
-    var enablePOC = getURLParameter('poc');
+    var enablePOC = getURLParameter('mod');
 
     if(enablePOC==1){
 
