@@ -21,7 +21,7 @@ input#SearchBox{
 
 /* hide cursor coordinates - temp fix */
 div#OpenLayers_Control_MousePosition_69{
-   display: none; 
+   display: none !important; 
 }
 
 /* Legend font size */
