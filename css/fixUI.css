@@ -49,3 +49,15 @@ input#SearchBox {
     height: 2em !important;
     padding-left: 1em;
 }
+/* Hide magnifying glass / run search button */
+input#SearchBox + img {
+    display: block !important;
+    top: 37px;
+    position: absolute;
+    right: 10px;
+}
+
+/* hide broken clusters filter -- spaces iflter works on both layers */
+div#DialogContentDiv>div>table:nth-child(7) {
+    display: none !important;
+}
