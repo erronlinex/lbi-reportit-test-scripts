@@ -1,3 +1,9 @@
+/* DESKTOP STYLES HERE */
+/* hide cursor coordinates - temp fix */
+div#OpenLayers_Control_MousePosition_69{
+   display: none !important; 
+}
+
 /* Test css is workin - can be removed */
 input#SearchBox{
     background-color: orange;
@@ -11,6 +17,8 @@ input#SearchBox{
     right: 10px !important;
 }
 
+
+/* MOBILE STYLES HERE */
 /* Prevent large icons in mobile view */
 /*
 [id^="OpenLayers_Geometry_Point"]{
@@ -18,11 +26,6 @@ input#SearchBox{
     height: 16px !important;
 }
 */
-
-/* hide cursor coordinates - temp fix */
-div#OpenLayers_Control_MousePosition_69{
-   display: none !important; 
-}
 
 /* Legend font size */
 div#LegendDiv {
@@ -38,4 +41,11 @@ div#SearchDiv {
     height: 100px !important;
     bottom: 123px !important;
     top: auto !important;
+}
+/* Find Postcose inpurt box */
+input#SearchBox {
+    position: absolute !important;
+    top: 30px;
+    height: 2em !important;
+    padding-left: 1em;
 }
