@@ -29,5 +29,13 @@ div#LegendDiv {
     font-size: larger !important;
     height: 225px !important;
     top: auto !important;
-    bottom: 100px !important;
+    bottom: 123px !important;
+}
+
+/* Find postcode */
+div#SearchDiv {
+    font-size: large !important;
+    height: 100px !important;
+    bottom: 123px !important;
+    top: auto !important;
 }
