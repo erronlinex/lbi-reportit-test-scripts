@@ -11,7 +11,7 @@ function iphoneFixes(){
 }
 
 function legend(){
-    $('#LegendDiv').append('<div onclick="ToggleLegend();" smallonly="true">Done</div>');
+    $('#LegendDiv').append('<div onclick="ToggleLegend();" smallonly="true" style="visibility:hidden">Done</div>');
 }
 
 function main(){
