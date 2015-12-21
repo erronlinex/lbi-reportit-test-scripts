@@ -69,7 +69,7 @@ div#DialogContentDiv>div>table:nth-child(7) {
 div#DialogDiv {
     top: auto !important;
     bottom: 123px !important;
-    padding-bottom: 10px;
+    padding-bottom: 10px !important;
 }
 /* Style all buttons - can't identify specific buttons as ther eis no class or id */
 button {
