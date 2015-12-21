@@ -57,7 +57,11 @@ input#SearchBox + img {
     right: 10px;
 }
 
-/* hide broken clusters filter -- spaces iflter works on both layers */
+/* hide filters clusters label*/
+div#DialogContentDiv>div>h3:nth-child(6) {
+    display: none !important;
+}
+/* hide broken clusters filter options -- spaces iflter works on both layers */
 div#DialogContentDiv>div>table:nth-child(7) {
     display: none !important;
 }
