@@ -3,7 +3,7 @@ function getURLParameter(name) {
 }
 
 $(document).ready(main);
-
+ 
 function iphoneFixes(){
     document.ontouchstart = function(e){ 
         e.preventDefault(); 
