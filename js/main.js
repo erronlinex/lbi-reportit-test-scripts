@@ -3,36 +3,42 @@ function getURLParameter(name) {
 }
 
 $(document).ready(main);
- 
-function iphoneFixes(){
-    document.ontouchstart = function(e){ 
-        e.preventDefault(); 
-    }
-}
-
-function legend(){
-    // $('#LegendDiv>table').append('<button type="button" onclick="ToggleLegend();">OK</button>');
-    $('#LegendDiv').append('<div id="hideLegend" style="text-align:center; display: none;"><button type="button" onclick="ToggleLegend();">OK</button></div>');
-}
 
 function main(){
-    var enablePOC = getURLParameter('mod');
+    var mod = getURLParameter('mod');
 
-    if(enablePOC==1){
-
+    if(mod==1){
+        // Insert link to stylesheet
         $("<link/>", {
             rel: "stylesheet",
             type: "text/css",
             href: "https://rawgit.com/erronlinex/lbi-reportit-test-scripts/master/css/fixUI.css"
         }).appendTo("head");
         
-//        iphoneFixes();
-        legend();
+        hideLegendBtn();
         
-        // Remove cadline's onkeypress attribute so that I can create a new keypress handler
-        // $("#SearchBox").removeAttr("onkeypress");
-        // Replace input box with my own
-        $("#SearchBox").remove();
-        $("#SearchDiv").append('<input id="SearchBox" type="text">');
+    } else if(mod==2){
+        // Insert link to stylesheet
+        $("<link/>", {
+            rel: "stylesheet",
+            type: "text/css",
+            href: "https://rawgit.com/erronlinex/lbi-reportit-test-scripts/master/css/mod2.css"
+        }).appendTo("head");
+        
+        toolbar();
     }
+}
+
+
+// Mod 1
+
+function hideLegendBtn(){
+    $('#LegendDiv').append('<div id="hideLegend" style="text-align:center; display: none;"><button type="button" onclick="ToggleLegend();">OK</button></div>');
+}
+
+
+// Mod 2 - Reword toolbar
+
+function hideDefaultElements(){
+  // Insert new toolbar that pops things in and out
 }
