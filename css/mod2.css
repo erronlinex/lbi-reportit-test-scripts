@@ -10,7 +10,7 @@ div#OpenLayers_Control_Attribution_15 {
 }
 /* hides searchbox */
 div#SearchDiv {
-    visibility: hidden !important;
+    display: none;
 }
 /* hides map tools */
 div#MapToolsDiv {
@@ -18,13 +18,13 @@ div#MapToolsDiv {
 }
 /* hides legend div */
 div#LegendDiv {
-    visibility: hidden !important;
+    display: none;
 }
 /* hide all openlayer panning zooming buttons */
 [id^="OpenLayers_Control_PanZoom_16_"] {
-    display: none !important;
+    display: none;
 }
 /* hide xy mouse coordinates */
 [id^="OpenLayers_Control_MousePosition_"]{
-    display: none !important;
+    display: none;
 }
