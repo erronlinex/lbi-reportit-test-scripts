@@ -28,23 +28,6 @@ function main(){
         
 //        iphoneFixes();
         legend();
-        
-        // Fix mobile view search toggle button
-        // Remove current click event
-        $('.MapToolDiv:eq(3)').attr('onclick', '').unbind('click');
-        // Add new click event
-        $('.MapToolDiv:eq(3)').click( function(){ 
-          // $('#SearchDiv').toggle(); 
-          if ( $('#SearchDiv').css('visibility') == 'hidden' )
-            $('#SearchDiv').css('visibility','visible');
-          else
-            $('#SearchDiv').css('visibility','hidden');
-        });
-        
-        // fix disappearing searchBox when input:focus
-        $('#SearchBox').focus( function(){ 
-            $('#SearchDiv').css('visibility','visible');
-        });
-         
+
     }
 }
