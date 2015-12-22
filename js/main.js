@@ -29,8 +29,10 @@ function main(){
 //        iphoneFixes();
         legend();
         
-        // test search toggle on mobile samsung device
-        $('#MapToolsDiv').append('<div onclick="ToggleSearch();">search</div>');
-
+        // Fix mobile view search toggle button
+        // Remove current click event
+        $('.MapToolDiv:eq(3)').attr('onclick', '').unbind('click');
+        // Add new click event
+        $('.MapToolDiv:eq(3)').click( function(){ $('#SearchDiv').toggle(); });
     }
 }
