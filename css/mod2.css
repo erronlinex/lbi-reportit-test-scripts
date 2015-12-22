@@ -1,0 +1,20 @@
+/* Sets attribution to top-left  position */
+div#OpenLayers_Control_Attribution_15 {
+    bottom: auto !important;
+}
+/* hides searchbox */
+div#SearchDiv {
+    visibility: hidden !important;
+}
+/* hides map tools */
+div#MapToolsDiv {
+    display: none;
+}
+/* hides x/y coordinates */
+div#OpenLayers_Control_MousePosition_17 {
+    display: none !important;
+}
+/* hides legend div */
+div#LegendDiv {
+    visibility: hidden !important;
+}
