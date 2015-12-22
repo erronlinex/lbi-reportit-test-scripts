@@ -32,7 +32,7 @@ function main(){
         // Remove cadline's onkeypress attribute so that I can create a new keypress handler
         // $("#SearchBox").removeAttr("onkeypress");
         // Replace input box with my own
-        $("#SearchBox").after('<input id="mySearchBox" type="text" class="searchbox" onkeypress="SearchBoxKeyPressHandler(event)">');
+        $("#SearchBox").after('<input id="mySearchBox" type="text" onkeypress="SearchBoxKeyPressHandler(event)">');
         $("#SearchBox").hide();
         
 
