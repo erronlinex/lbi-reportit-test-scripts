@@ -5,10 +5,13 @@ div#OpenLayers_Control_MousePosition_69{
 }
 
 /* Test css is workin - can be removed */
-input#SearchBox{
-    background-color: orange;
+input#SearchBox {
+    border: 0px;
+    background-color: #ddd6ca;
 }
-
+input#SearchBox:focus {
+    outline: orange !important;
+}
 
 /* DESKTOP view scalebar position MOBILE needs to be positioned at top-right of page */
 .olControlScaleLine{
