@@ -44,7 +44,7 @@ input#SearchBox{
    /* Find postcode */
    div#SearchDiv {
        font-size: large !important;
-       height: 100px !important;
+       height: 62px !important;
        bottom: 123px !important;
        top: auto !important;
    }
