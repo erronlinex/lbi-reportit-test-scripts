@@ -45,6 +45,6 @@ function main(){
         $('#SearchBox').focus( function(){ 
             $('#SearchDiv').css('visibility','visible');
         });
-        
+         
     }
 }
