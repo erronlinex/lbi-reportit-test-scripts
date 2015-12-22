@@ -28,6 +28,9 @@ function main(){
         
 //        iphoneFixes();
         legend();
+        
+        // test search toggle on mobile samsung device
+        $('#MapToolsDiv').append('<div onclick="ToggleSearch();">search</div>');
 
     }
 }
