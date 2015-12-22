@@ -10,7 +10,7 @@ div#OpenLayers_Control_Attribution_15 {
 }
 /* hides searchbox */
 div#SearchDiv {
-    display: none;
+    display: none !important;
 }
 /* hides map tools */
 div#MapToolsDiv {
