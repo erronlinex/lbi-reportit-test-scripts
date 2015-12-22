@@ -22,7 +22,7 @@ div#LegendDiv {
 }
 /* hide all openlayer panning zooming buttons */
 [id^="OpenLayers_Control_PanZoom_16_"] {
-    display: none;
+    display: none !important;
 }
 /* hide xy mouse coordinates */
 [id^="OpenLayers_Control_MousePosition_"]{
