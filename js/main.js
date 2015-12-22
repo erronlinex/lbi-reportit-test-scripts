@@ -28,6 +28,9 @@ function main(){
         
 //        iphoneFixes();
         legend();
+        
+        // Remove cadline's onkeypress attribute so that I can create a new keypress handler
+        $("#SearchBox").removeAttr("onkeypress");
 
     }
 }
