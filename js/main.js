@@ -33,6 +33,13 @@ function main(){
         // Remove current click event
         $('.MapToolDiv:eq(3)').attr('onclick', '').unbind('click');
         // Add new click event
-        $('.MapToolDiv:eq(3)').click( function(){ $('#SearchDiv').toggle(); });
+        $('.MapToolDiv:eq(3)').click( function(){ 
+          // $('#SearchDiv').toggle(); 
+          if ( $('#SearchDiv').css('visibility') == 'hidden' )
+            $('#SearchDiv').css('visibility','visible');
+          else
+            $('#SearchDiv').css('visibility','hidden');
+        });
+        
     }
 }
