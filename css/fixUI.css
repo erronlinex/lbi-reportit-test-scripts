@@ -43,7 +43,10 @@ input#SearchBox:focus {
        top: auto !important;
        bottom: 123px !important;
    }
-   
+   /* hide legend button*/
+   #hideLegend {
+      display: block;
+   }
    /* Find postcode */
    div#SearchDiv {
        font-size: large !important;
