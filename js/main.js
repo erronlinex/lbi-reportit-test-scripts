@@ -25,15 +25,6 @@ function main(){
             href: "https://rawgit.com/erronlinex/lbi-reportit-test-scripts/master/css/mod2.css"
         }).appendTo("head");
         
-        // Insert link to bootstrap css
-        $("<link/>", {
-            rel: "stylesheet",
-            type: "text/css",
-            href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-        }).appendTo("head");       
-        // Get bootstrap script
-        $.getScript("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js");
-
         toolbar();
     }
 }
