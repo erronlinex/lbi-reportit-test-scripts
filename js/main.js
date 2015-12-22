@@ -33,6 +33,6 @@ function main(){
         // $("#SearchBox").removeAttr("onkeypress");
         // Replace input box with my own
         $("#SearchBox").remove();
-        $("#searchdiv").append('<input id="SearchBox" type="text">');
+        $("#SearchDiv").append('<input id="SearchBox" type="text">');
     }
 }
