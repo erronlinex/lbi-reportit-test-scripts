@@ -17,65 +17,72 @@ input#SearchBox{
     right: 10px !important;
 }
 
-
-/* MOBILE STYLES HERE */
-/* Prevent large icons in mobile view */
-/*
-[id^="OpenLayers_Geometry_Point"]{
-    width: 16px !important;
-    height: 16px !important;
-}
-*/
-
-/* Legend font size */
-div#LegendDiv {
-    font-size: larger !important;
-    height: 225px !important;
-    top: auto !important;
-    bottom: 123px !important;
-}
-
-/* Find postcode */
-div#SearchDiv {
-    font-size: large !important;
-    height: 100px !important;
-    bottom: 123px !important;
-    top: auto !important;
-}
-/* Find Postcose inpurt box */
-input#SearchBox {
-    position: absolute !important;
-    top: 30px;
-    height: 2em !important;
-    padding-left: 1em;
-}
-/* Hide magnifying glass / run search button */
-input#SearchBox + img {
-    display: block !important;
-    top: 37px;
-    position: absolute;
-    right: 10px;
-}
-
-/* FILTER DIV */
-/* hide filters clusters label*/
-div#DialogContentDiv>div>h3:nth-child(6) {
-    display: none !important;
-}
-/* hide broken clusters filter options -- spaces iflter works on both layers */
-div#DialogContentDiv>div>table:nth-child(7) {
-    display: none !important;
-}
-div#DialogDiv {
-    top: auto !important;
-    bottom: 123px !important;
-    padding-bottom: 10px !important;
-}
-/* Style all buttons - can't identify specific buttons as ther eis no class or id */
-button {
-    background-color: #222;
-    border: 0px;
-    height: 2em;
-    color: #fff;
-    width: 75px;
+@media screen and (max-width: 399px){
+   /* MOBILE STYLES HERE */
+   /* Prevent large icons in mobile view */
+   /*
+   [id^="OpenLayers_Geometry_Point"]{
+       width: 16px !important;
+       height: 16px !important;
+   }
+   */
+   
+   /* mobile scale bar - top-right */
+   .olControlScaleLine{
+       left: auto !important;
+       top: 10px !important;
+       right: 10px !important;
+   }
+   /* Legend font size */
+   div#LegendDiv {
+       font-size: larger !important;
+       height: 225px !important;
+       top: auto !important;
+       bottom: 123px !important;
+   }
+   
+   /* Find postcode */
+   div#SearchDiv {
+       font-size: large !important;
+       height: 100px !important;
+       bottom: 123px !important;
+       top: auto !important;
+   }
+   /* Find Postcose inpurt box */
+   input#SearchBox {
+       position: absolute !important;
+       top: 30px;
+       height: 2em !important;
+       padding-left: 1em;
+   }
+   /* Hide magnifying glass / run search button */
+   input#SearchBox + img {
+       display: block !important;
+       top: 37px;
+       position: absolute;
+       right: 10px;
+   }
+   
+   /* FILTER DIV */
+   /* hide filters clusters label*/
+   div#DialogContentDiv>div>h3:nth-child(6) {
+       display: none !important;
+   }
+   /* hide broken clusters filter options -- spaces iflter works on both layers */
+   div#DialogContentDiv>div>table:nth-child(7) {
+       display: none !important;
+   }
+   div#DialogDiv {
+       top: auto !important;
+       bottom: 123px !important;
+       padding-bottom: 10px !important;
+   }
+   /* Style all buttons - can't identify specific buttons as ther eis no class or id */
+   button {
+       background-color: #222;
+       border: 0px;
+       height: 2em;
+       color: #fff;
+       width: 75px;
+   }
 }
