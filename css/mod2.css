@@ -1,3 +1,9 @@
+/* postion scalebar at top-right of map */
+[id^="OpenLayers_Control_ScaleLine_"] {
+    top: 10px !important;
+    left: auto !important;
+    right: 10px !important;
+}
 /* Sets attribution to top-left  position */
 div#OpenLayers_Control_Attribution_15 {
     bottom: auto !important;
@@ -10,11 +16,15 @@ div#SearchDiv {
 div#MapToolsDiv {
     display: none;
 }
-/* hides x/y coordinates */
-div#OpenLayers_Control_MousePosition_17 {
-    display: none !important;
-}
 /* hides legend div */
 div#LegendDiv {
     visibility: hidden !important;
+}
+/* hide all openlayer panning zooming buttons */
+[id^="OpenLayers_Control_PanZoom_16_"] {
+    display: none !important;
+}
+/* hide xy mouse coordinates */
+[id^="OpenLayers_Control_MousePosition_"]{
+    display: none !important;
 }
