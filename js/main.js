@@ -41,5 +41,13 @@ function main(){
             $('#SearchDiv').css('visibility','hidden');
         });
         
+        // fix disappearing searchBox when input:focus
+        $('#SearchBox').focus( function(){ 
+          if ( $('#SearchDiv').css('visibility') == 'hidden' )
+            $('#SearchDiv').css('visibility','visible');
+          else
+            $('#SearchDiv').css('visibility','hidden');
+        });
+        
     }
 }
