@@ -39,6 +39,6 @@ function hideLegendBtn(){
 
 // Mod 2 - Reword toolbar
 
-function hideDefaultElements(){
+function toolbar(){
   // Insert new toolbar that pops things in and out
 }
