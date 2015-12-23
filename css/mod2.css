@@ -45,6 +45,10 @@ div#MapToolsDiv {
 
 
 /* FILTER DIV */
+/* no scrollbar */
+div#DialogContentDiv{
+    overflow: hidden !important;
+}
 /* hide filters clusters label*/
 div#DialogContentDiv>div>h3:nth-child(6) {
    display: none !important;
@@ -52,7 +56,6 @@ div#DialogContentDiv>div>h3:nth-child(6) {
 /* hide broken clusters filter options -- spaces iflter works on both layers */
 div#DialogContentDiv>div>table:nth-child(7) {
    display: none !important;
-   overflow: hidden !important;
 }
 div#DialogDiv {
    top: auto !important;
