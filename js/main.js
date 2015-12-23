@@ -45,6 +45,7 @@ function toolbar(){
   $('#myToolbar').append('<a href="#" id="toggleLegend"></div>'); // toggle legend button
   // Legend toggle event
   $('#toggleLegend').click( function(){
-    $('#LegendDiv').toggle();
+    // $('#LegendDiv').toggle();
+    LegendToggle();
   });
 }
