@@ -25,7 +25,7 @@ div#MapToolsDiv {
 }
 /* hides legend div */
 div#LegendDiv {
-    display: none;
+    /*display: none;*/
 }
 /* hide all openlayer panning zooming buttons */
 [id^="OpenLayers_Control_PanZoom_16_"] {
