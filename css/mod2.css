@@ -69,8 +69,15 @@ a#toggleLegend {
 /* Legend font size */
 div#LegendDiv {
    font-size: larger !important;
-   height: 225px !important;
+   height: 195px !important;
    top: auto !important;
-   bottom: 39px !important;
-   border: 2px solid !important;
+   bottom: 42px !important;
+   border: 0px !important;
+   left: 0px !important;
+}
+
+@media screen and (max-width: 600px){
+    div#LegendDiv {
+       width: 100% !important;
+    }
 }
