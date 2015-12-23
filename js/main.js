@@ -46,6 +46,6 @@ function toolbar(){
   // Legend toggle event
   $('#toggleLegend').click( function(){
     // $('#LegendDiv').toggle();
-    LegendToggle();
+    ToggleLegend();
   });
 }
