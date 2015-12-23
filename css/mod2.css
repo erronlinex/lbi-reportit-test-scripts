@@ -69,7 +69,7 @@ a#toggleLegend {
 /* Legend font size */
 div#LegendDiv {
    font-size: larger !important;
-   height: 225px !important;
+   height: auto !important;
    top: auto !important;
    bottom: 42px !important;
    border: 0px !important;
