@@ -76,6 +76,9 @@ div#LegendDiv {
    left: 0px !important;
    border-width:2px 2px 0px 0px;
 }
+div#LegendDiv > table {
+   width: 100%;
+}
 
 /* Styles less than 600px*/
 @media screen and (max-width: 600px){
