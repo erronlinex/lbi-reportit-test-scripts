@@ -41,6 +41,9 @@ function hideLegendBtn(){
 
 function toolbar(){
   // Insert new toolbar that pops things in and out
-  $('body').append('<div id="myToolbar"></div>');
-  $('#myToolbar').append('<a href id="toggleLegend" onclick="$("#LegendDiv").toggle();"></div>');
+  $('body').append('<div id="myToolbar"></div>'); // toolbar container
+  $('#myToolbar').append('<a href="#" id="toggleLegend"></div>'); // toggle legend button
+  $('#toggleLegend').click( function(){
+    $('#LegendDiv').toggle();
+  });
 }
