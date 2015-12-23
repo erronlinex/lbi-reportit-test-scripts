@@ -25,7 +25,9 @@ function main(){
             href: "https://rawgit.com/erronlinex/lbi-reportit-test-scripts/master/css/mod2.css"
         }).appendTo("head");
         
+        moreControls();
         toolbar();
+        
     }
 }
 
@@ -54,4 +56,8 @@ function toolbar(){
   $('#showFilter').click( function(){
     ShowFilterDialog();
   });
+}
+
+function moreControls(){
+  $('#LegendDiv').append('<div id="hideLegend" style="text-align:center;"><button type="button" onclick="ToggleLegend();">OK</button></div>');
 }
