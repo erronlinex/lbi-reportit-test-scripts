@@ -33,6 +33,7 @@ function main(){
 // Mod 1
 
 function hideLegendBtn(){
+  //ToggleLegend(); //hide legend
     $('#LegendDiv').append('<div id="hideLegend" style="text-align:center; display: none;"><button type="button" onclick="ToggleLegend();">OK</button></div>');
 }
 
@@ -46,7 +47,8 @@ function toolbar(){
   $('#myToolbar').append('<a href="#" id="showFilter"></div>'); // toggle filter button
   // Legend toggle event
   $('#toggleLegend').click( function(){
-    $('#LegendDiv').toggle();
+    // $('#LegendDiv').toggle();
+    ToggleLegend();
   });
   // Search toggle event
   $('#showFilter').click( function(){
