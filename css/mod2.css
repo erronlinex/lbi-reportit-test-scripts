@@ -28,3 +28,22 @@ div#LegendDiv {
 [id^="OpenLayers_Control_MousePosition_"]{
     display: none;
 }
+
+/* TOOLBAR STYLES */
+div#myToolbar {
+    position: absolute;
+    background-color: white;
+    bottom: 0px;
+}
+
+div#myToolbar > a{
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+    margin: 4px;
+}
+
+a#toggleLegend {
+    background-image: url('https://cloud.githubusercontent.com/assets/16360753/11973715/f7928844-a954-11e5-976f-d6c040e6e749.png');
+}
