@@ -46,9 +46,11 @@ div#myToolbar > a{
     margin: 4px;
 }
 
-a#toggleLegend {
-    background-image: url('https://cloud.githubusercontent.com/assets/16360753/11973715/f7928844-a954-11e5-976f-d6c040e6e749.png');
-}
 a#showFilter {
     background-image: url('https://cloud.githubusercontent.com/assets/16360753/11974694/60a39040-a95e-11e5-8720-389f176ad163.png');
 }
+
+a#toggleLegend {
+    background-image: url('https://cloud.githubusercontent.com/assets/16360753/11973715/f7928844-a954-11e5-976f-d6c040e6e749.png');
+}
+
