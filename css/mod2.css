@@ -5,6 +5,16 @@ body {
     height: 100% !important;
 }
 
+/* Style all button objects - can't identify specific buttons as there is no class or id */
+button {
+   background-color: #222;
+   border: 0px;
+   height: 2em;
+   color: #fff;
+   width: 75px;
+   cursor: pointer;
+}
+
 /* postion scalebar at top-right of map */
 [id^="OpenLayers_Control_ScaleLine_"] {
     top: 10px !important;
@@ -35,6 +45,25 @@ div#LegendDiv {
 [id^="OpenLayers_Control_MousePosition_"]{
     display: none !important;
 }
+
+
+/* FILTER DIV */
+/* hide filters clusters label*/
+div#DialogContentDiv>div>h3:nth-child(6) {
+   display: none !important;
+}
+/* hide broken clusters filter options -- spaces iflter works on both layers */
+div#DialogContentDiv>div>table:nth-child(7) {
+   display: none !important;
+}
+div#DialogDiv {
+   top: auto !important;
+   bottom: 42px !important;
+   padding-bottom: 10px !important;
+   border-bottom: 0px !important;
+   left: 0px !important;
+}
+
 
 /* TOOLBAR STYLES */
 div#toolbarContainer {
