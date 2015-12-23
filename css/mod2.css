@@ -54,3 +54,9 @@ a#toggleLegend {
     background-image: url('https://cloud.githubusercontent.com/assets/16360753/11973715/f7928844-a954-11e5-976f-d6c040e6e749.png');
 }
 
+/* TEST BODY FIXED TO SEE WHAT HAPPENS WITH SCROLLING */
+body {
+    position: fixed !important;
+    width: 100% !important;
+    height: 100% !important;
+}
