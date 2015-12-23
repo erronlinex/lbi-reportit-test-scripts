@@ -43,7 +43,7 @@ function toolbar(){
   // Insert new toolbar that pops things in and out
   $('body').append('<div id="toolbarContainer"><div id="myToolbar"></div></div>'); // toolbar container + toolbar
   $('#myToolbar').append('<a href="#" id="toggleLegend"></div>'); // toggle legend button
-  $('#myToolbar').append('<a href="#" id="showfilter"></div>'); // toggle filter button
+  $('#myToolbar').append('<a href="#" id="showFilter"></div>'); // toggle filter button
   // Legend toggle event
   $('#toggleLegend').click( function(){
     $('#LegendDiv').toggle();
