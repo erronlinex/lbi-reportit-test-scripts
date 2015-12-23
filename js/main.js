@@ -16,7 +16,7 @@ function main(){
         }).appendTo("head");
         
         hideLegendBtn();
-        
+         
     } else if(mod==2){
         // Insert link to stylesheet
         $("<link/>", {
