@@ -44,6 +44,7 @@ div#toolbarContainer {
     text-align: center;
     width: 100%;
     z-index: 9999;
+    border: 1px solid #000;
 }
 /* toolbar buttons */
 div#myToolbar > a{
@@ -60,4 +61,16 @@ a#showFilter {
 
 a#toggleLegend {
     background-image: url('https://cloud.githubusercontent.com/assets/16360753/11973715/f7928844-a954-11e5-976f-d6c040e6e749.png');
+}
+
+/* Change cadline UI*/
+
+/* Legend div */
+/* Legend font size */
+div#LegendDiv {
+   font-size: larger !important;
+   height: 225px !important;
+   top: auto !important;
+   bottom: 39px !important;
+   border: 2px solid !important;
 }
