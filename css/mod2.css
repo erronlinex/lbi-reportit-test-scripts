@@ -26,16 +26,18 @@ div#LegendDiv {
 }
 /* hide xy mouse coordinates */
 [id^="OpenLayers_Control_MousePosition_"]{
-    display: none;
+    display: none !important;
 }
 
 /* TOOLBAR STYLES */
-div#myToolbar {
+div#toolbarContainer {
     position: absolute;
-    background-color: white;
     bottom: 0px;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
 }
-
+/* toolbar buttons */
 div#myToolbar > a{
     display: inline-block;
     background-repeat: no-repeat;
