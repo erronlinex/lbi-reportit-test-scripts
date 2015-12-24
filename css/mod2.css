@@ -70,6 +70,7 @@ div#DialogCloseDiv {
   width: 24px !important;
   height: 24px !important;
   cursor: pointer;
+  display: none; /* hide close button as ok/cancel/reset buttons are sufficient */
 }
 
 /* TOOLBAR STYLES */
