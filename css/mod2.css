@@ -25,10 +25,7 @@ button {
 div#OpenLayers_Control_Attribution_15 {
     bottom: auto !important;
 }
-/* hides searchbox */
-div#SearchDiv {
-    display: none !important;
-}
+
 /* hides map tools */
 div#MapToolsDiv {
     display: none;
