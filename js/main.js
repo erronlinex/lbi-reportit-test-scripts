@@ -25,6 +25,12 @@ function main(){
             href: "https://rawgit.com/erronlinex/lbi-reportit-test-scripts/master/css/mod2.css"
         }).appendTo("head");
         
+        $("<link/>", {
+            rel: "stylesheet",
+            type: "text/css",
+            href: "https://rawgit.com/erronlinex/lbi-reportit-test-scripts/master/css/markers.css"
+        }).appendTo("head");
+        
         moreControls();
         toolbar();
         
